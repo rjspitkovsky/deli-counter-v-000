@@ -5,7 +5,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
   i = 1
-    while x < katz_deli.length
+    while i < katz_deli.length
     line = katz_deli.push(" " + i + ". " + katz_deli[i])
     i += 1
   end
