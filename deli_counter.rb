@@ -14,3 +14,8 @@ def line(katz_deli)
       puts starting_string.split.join(" ")
   end
 end
+
+
+def take_a_number(katz_deli, name)
+
+end 
