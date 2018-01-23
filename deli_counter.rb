@@ -9,6 +9,6 @@ def line(katz_deli)
     katz_deli.push(" " + i + ". " + katz_deli[x])
     i += 1
   end
-  katz_deli
+  puts katz_deli
 end
 end
