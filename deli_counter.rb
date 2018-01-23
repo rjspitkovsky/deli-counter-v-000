@@ -6,9 +6,9 @@ def line(katz_deli)
   else
   i = 1
     while x < katz_deli.length
-    katz_deli.push(" " + i + ". " + katz_deli[x])
+    line = katz_deli.push(" " + i + ". " + katz_deli[x])
     i += 1
   end
-  puts katz_deli
+  puts "The line is currently: " + line 
 end
 end
