@@ -12,6 +12,6 @@ end
         line = "#{index + 1}" + ". " + "#{name} "
         starting_string << line
       end
-      puts starting_string
+      puts starting_string.split.join(" ")
   end
 end
