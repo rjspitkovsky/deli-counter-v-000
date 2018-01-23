@@ -5,12 +5,11 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
   starting_string = "The line is currently: "
-  x = 1
-  katz_deli.each do |name|
-    starting_string << x + "." + name
-    x += 1
+  x = 0
+  while x < katz_deli.length
+    starting_string << katz_deli[x]
   end
-  puts starting_string 
+  starting_string
 
 end
 end
