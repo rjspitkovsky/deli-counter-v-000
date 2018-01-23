@@ -7,7 +7,7 @@ def line(katz_deli)
   i = 1
     while x < katz_deli.length
     katz_deli.push(" " + i + ". " + katz_deli[x])
-
+    i += 1
   end
   katz_deli
 end
