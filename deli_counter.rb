@@ -9,7 +9,7 @@ end
     starting_string = "The line is currently: "
 
       katz_deli.each_with_index do |name, index|
-        line = "#{index}" + ". " + "#{name}"
+        line = "#{index + 1}" + ". " + "#{name} "
         starting_string << line
       end
       puts starting_string
